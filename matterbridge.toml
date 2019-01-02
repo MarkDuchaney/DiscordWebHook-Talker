@@ -32,4 +32,8 @@ channel="42wim/mygreatproject"
 #Add the gateway configuration to your config file.
 #Copy and paste the config from https://github.com/42wim/matterbridge/wiki/Gateway-config-%28basic%29
 #Modify the gateway config matching the protocols you selected above.
-#For the correct `channel=mychannel` settings, look at
+#For the correct channel=mychannel settings, look at:
+#https://github.com/42wim/matterbridge/wiki/Gateway-config-%28channel-rules%29
+
+
+#Run matterbridge with ./matterbridge -conf matterbridge.toml
