@@ -12,5 +12,24 @@ RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 Token="InsertTokenHere"
 RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 
+[[gateway]]
+name="gateway1"
+enable=true
+
+[[gateway.inout]]
+account="discord.mydiscord"
+channel="general"
+
+[[gateway.inout]]
+account="gitter.mygitter"
+channel="42wim/mygreatproject"
+
 #In the example below RemoteNickFormat we want messages from channel #general on discord to be sent to channel 42wim/mygreatproject on gitter.
 #(and messages from channel 42wim/mygreatproject on gitter to channel #general on discord
+
+
+#Change the Token and Server Keys to the correct ones. 
+#Add the gateway configuration to your config file.
+#Copy and paste the config from https://github.com/42wim/matterbridge/wiki/Gateway-config-%28basic%29
+#Modify the gateway config matching the protocols you selected above.
+#For the correct `channel=mychannel` settings, look at
