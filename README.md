@@ -14,7 +14,9 @@ A webhook system that pairs into Riot.im and Matterbridge
 
 # Important URLs
 **Discord Basin** https://github.com/42wim/matterbridge/wiki/Section-Discord-%28basic%29
+
 **Gateway Configuration** https://github.com/42wim/matterbridge/wiki/Gateway-config-%28basic%29
+
 **Gateway Configuration Channel Rules** https://github.com/42wim/matterbridge/wiki/Gateway-config-%28channel-rules%29
 
 
