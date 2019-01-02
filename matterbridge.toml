@@ -6,3 +6,11 @@
 Token="InsertTokenHere"
 Server="Name or uid of the server you are connecting" # picked from guilds the bot is connected to
 RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
+
+[gitter.mygitter]
+#You can get your token by going to https://developer.gitter.im/docs/welcome and SIGN IN
+Token="InsertTokenHere"
+RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
+
+#In the example below RemoteNickFormat we want messages from channel #general on discord to be sent to channel 42wim/mygreatproject on gitter.
+#(and messages from channel 42wim/mygreatproject on gitter to channel #general on discord
