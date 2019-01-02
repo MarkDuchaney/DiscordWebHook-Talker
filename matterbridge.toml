@@ -3,6 +3,6 @@
 # https://github.com/42wim/matterbridge/wiki/Discord-bot-setup
 # If you want roles/groups mentions to be shown with names instead of ID, 
 # you'll need to give your bot the "Manage Roles" permission.
-Token="Yourtokenhere"
-Server="name or uid of guild" # picked from guilds the bot is connected to
+Token="InsertTokenHere"
+Server="Name or uid of the server you are connecting" # picked from guilds the bot is connected to
 RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
